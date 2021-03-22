@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>TUGAS 1 PemWeb</title>
+	<!-- memanggil jquery -->
+	<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+	<!-- fungsi ketika memakai bahasa javascript -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//kegunaan click yang kita mau
+			//mengcustom kecepatan transisi di jquery
+			$(".sembunyikan").click(function(){$("#foto").hide("slow")});
+			//delete script yang ada di jquery
+			$(".tampilkan").click(function(){$("#foto").show("slow")});
+			$(".sembunyikan2").click(function(){$("#foto2").hide("slow")});
+			$(".tampilkan2").click(function(){$("#foto2").show("slow")});
+			$(".sembunyikan3").click(function(){$("#foto3").hide("slow")});
+			//#foto,foto2 dan foto3 adalah inisial
+			$(".tampilkan3").click(function(){$("#foto3").show("slow")});});
+	</script>
+</head>
+<body
+	<!-- button menyembunyikan -->
+	<button class="sembunyikan">sembunyikan</button>
+	<!-- button menampilkan -->
+	<button class="tampilkan">tampilkan</button>
+	<br>
+	<p><img id="foto" src="mariska&friends.jpg" width="180" height="180"></p>
+	<!-- button menyembunyikan -->
+	<button class="sembunyikan2">sembunyikan</button>
+	<!-- button menampilkan -->
+	<button class="tampilkan2">tampilkan</button>
+	<br>
+	<p><img id="foto2" src="mariska&friends.jpg" width="180" height="180"></p>
+	<!-- button menyembunyikan -->
+	<button class="sembunyikan3">sembunyikan</button>
+	<!-- button menampilkan -->
+	<button class="tampilkan3">tampilkan</button>
+	<br>
+	<p><img id="foto3" src="mariska&friends.jpg" width="180" height="180"></p>
+
+</body>
+</html>

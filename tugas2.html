@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>TUGAS 2 PemWeb</title>
+<!-- memanggil jquery -->
+<script src="jquery-3.6.0.min.js"></script>
+<!-- menggunakan bahasa javascript -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		//kegunaan click yang kita mau 
+		$("div").dblclick(function(){
+			//div deklarasi untuk masukan tag ke html
+			//dblclick untuk double click
+		$(this).css({background:"red"});
+			//agar div punya background merah
+		});
+	});
+</script>
+<!-- mengedit tampilan dengan css -->
+<style type="text/css">
+	div{
+		background:yellow;
+		width: 70px;
+		height: 70px;
+		float: left;
+		margin:10px;
+		}
+</style>
+</head>
+<body>
+<p> klik 2x pada setiap kotak untuk merubah warnanya </p>
+<!-- panggilan untuk div -->
+<div>
+</div>
+<dir></dir>
+<div></div>
+<div></div>
+<div></div>
+</body>
+</html>
